@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.menu {
+	height: 100px;
+	background-color: #B2D6FF; /*blue*/
+	text-align: right;
+	font-weight: 100px;
+	padding-right: 60px;
+	padding-top: 35px;
+	font-size: 35px;
+
+}
+	
+
+
+.sidebar {
+	height: 500px;
+	background-color: rgba(255,69,0, 0.5); /*red*/
+	width: 200px;
+	float: left;
+
+	/*margin: 0 auto;*/
+}
+
+.content {
+	float: left;
+	height: 500px;
+	background-color: rgba(212,175,55,0.5); /*yellow*/
+	width: 650px;
+	padding: 20px;
+	
+	
+	
+}
+
+.footer {
+	clear: both;
+	/*height: 200px;*/
+	background-color: #D6E9FE; /*light blue*/
+	/*border: 5px solid red;*/
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+/*	background-color: #EAEDF0;*/
+}
+
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.container {
+	background-color: #FFDF00;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../images/hall.jpg");
+}
+
+.column {
+	float: left;
+	background: #FFDF00;
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	border-radius: 25px;
+	
+}
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	background-color:  #D6E9FE;
+}
+
+.username {
+	margin-top: 30px;
+}
+.comment {
+	margin: 10px;
+	overflow: hidden;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+
